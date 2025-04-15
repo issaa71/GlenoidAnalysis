@@ -347,19 +347,19 @@ def provide_clinical_interpretation(glenoid_type):
         return "• No significant glenoid erosion or deformity"
     
     elif glenoid_type == "A2":
-        return "• Centered erosion pattern"
+        return "• Moderate to severe central erosion (4–8 mm of bone loss), centrally located on the glenoid"
     
     elif glenoid_type == "B2":
-        return "• Biconcave glenoid with intact posterior rim"
+        return "• Biconcave posterior erosion: the normal concavity of the glenoid is split into two regions"
     
     elif glenoid_type == "B3":
-        return "• Monoconcave glenoid with significant retroversion"
+        return "• Monoconcave posterior erosion: the entire glenoid surface is eroded posteriorly"
     
     elif glenoid_type == "E2":
-        return "• Central bone loss with intact peripheral rim"
+        return "• Biconcave superior erosion: similar to B2 but located superiorly"
 
     elif glenoid_type == "E3":
-        return "• Central and peripheral bone loss"
+        return "• Monoconcave superior erosion: similar to B3 but directed superiorly"
     
     return "• Interpretation not available for this type"
 
@@ -501,16 +501,16 @@ with st.expander("About the Walch Glenoid Classification System"):
 
     - **Type B**: Posterior subluxation of the humeral head
       - B1: Posterior joint narrowing, no erosion
-      - B2: Posterior erosion creating a biconcave glenoid
-      - B3: Monoconcave glenoid with significant retroversion (>15°)
+      - B2: Biconcave posterior erosion: the normal concavity of the glenoid is split into two regions
+      - B3: Monoconcave posterior erosion: the entire glenoid surface is eroded posteriorly
 
     - **Type C**: Dysplastic glenoid with severe retroversion (>25°)
 
     - **Type D**: Glenoid with significant anterior erosion (uncommon)
 
     - **Type E**: Global concentric wear 
-      - E2: Central bone loss with intact peripheral rim 
-      - E3: Central and peripheral bone loss
+      - E2: Biconcave superior erosion: similar to B2 but located superiorly
+      - E3: Monoconcave superior erosion: similar to B3 but directed superiorly
     """)
 
 # Add footer

@@ -403,19 +403,19 @@ def provide_clinical_interpretation(glenoid_type):
         print("• No significant glenoid erosion or deformity")
     
     elif glenoid_type == "A2":
-        print("• Centered erosion pattern")
+        print("• Moderate to severe central erosion (4–8 mm of bone loss), centrally located on the glenoid")
     
     elif glenoid_type == "B2":
-        print("• Biconcave glenoid with intact posterior rim")
+        print("• Biconcave posterior erosion: the normal concavity of the glenoid is split into two regions")
     
     elif glenoid_type == "B3":
-        print("• Monoconcave glenoid with significant retroversion")
+        print("• Monoconcave posterior erosion: the entire glenoid surface is eroded posteriorly")
     
     elif glenoid_type == "E2":
-        print("• Central bone loss with intact peripheral rim")
+        print("• Biconcave superior erosion: similar to B2 but located superiorly")
 
     elif glenoid_type == "E3":
-        print("• Central and peripheral bone loss")
+        print("• Monoconcave superior erosion: similar to B3 but directed superiorly")
 
 if __name__ == "__main__":
     run_interface()
